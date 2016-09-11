@@ -213,10 +213,16 @@ You can read about how Python's dictionary structure is implemented using a Hash
 3. Write a function to iterate through the Hash Table.
 4. If the Hash Table uses a open adressing, then what is the worst case run time complexity for a get function?
 
+### Trees
+Trees are a bit more complex than the previous data structures, but you can also conceptualize a linked list as a very simple tree. A tree has a *node* with a value, and (optionally) *subtrees*. A node can have a *parent* and *children*, and the node in a tree with no parents is the *root*. In the linked list example, the first item of the linked list is the *root*, it has one child, and each subsequent node has one child, except the last item, which has no children. A node with no children is sometimes called a *leaf*. If a node is a *child* of another node, it can be said there is an *edge* between the two.
+
+![linked list](https://upload.wikimedia.org/wikipedia/commons/d/d7/Directed_Graph_Edge.svg)
+
+One essential property of a tree is that it does not contain *cycles*. No node's children can contain a reference to another node that is already in the tree.
+
 ### To come
 - Stacks
 - Queues
-- Trees
 - Graphs
 
 ## In Conclusion
