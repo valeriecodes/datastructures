@@ -218,7 +218,15 @@ Trees are a bit more complex than the previous data structures, but you can also
 
 ![linked list](https://upload.wikimedia.org/wikipedia/commons/d/d7/Directed_Graph_Edge.svg)
 
-One essential property of a tree is that it does not contain *cycles*. No node's children can contain a reference to another node that is already in the tree.
+One essential property of a tree is that it does not contain *cycles*. No node's children can contain a reference to another node that is already in the tree. A tree also has to have a single root.
+
+![Not a tree](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Directed_graph%2C_disjoint.svg/99px-Directed_graph%2C_disjoint.svg.png)
+
+![Also not a tree](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Graph_single_node.svg/105px-Graph_single_node.svg.png)
+
+*Depth* refers to the distance of a given node from the root.
+
+A common implementation of the tree data structure is the binary search tree (BST)
 
 ### To come
 - Stacks
